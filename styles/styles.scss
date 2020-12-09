@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import 'mini-calendar';
+
+:root {
+  --pattern-gray-50: #f8f8f7;
+  --pattern-gray-100: #f0f0ef;
+  --pattern-gray-150: #e7e6e4;
+  --pattern-gray-200: #d5d4d2;
+  --pattern-gray-300: #bab7b5;
+  --pattern-gray-400: #a29d9a;
+  --pattern-gray-500: #8b8684;
+  --pattern-gray-600: #74706d;
+  --pattern-gray-700: #615d5c;
+  --pattern-gray-800: #4d4947;
+  --pattern-gray-900: #373433;
+  --pattern-gray-1000: #222020;
+
+  --pattern-blue-100: #e7edf6;
+  --pattern-blue-600: #386195;
+  --pattern-blue-800: #2a4970;
+
+  --pattern-green-600: #25a244;
+  --pattern-green-600-muted: #eef8f0;
+  --pattern-green-900: #155d27;
+
+  --ba-mini-calendar-bg: #ddd;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  color: var(--pattern-gray-800);
+  background-color: var(--pattern-gray-100);
+  padding: 1rem;
+}
+
+a {
+  color: var(--pattern-blue-600);
+  text-decoration: none;
+}
+
+.app {
+  margin: 1rem auto 0;
+  max-width: 22rem;
+  background: white;
+  border: 1px solid var(--pattern-gray-150);
+  border-radius: 3px;
+}

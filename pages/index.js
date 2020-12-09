@@ -1,9 +1,9 @@
-import HelloWorld from '../components/hello-world'
+import MiniCalendar from '../components/mini-calendar';
 
 export default function Home() {
   return (
     <div className="app">
-      <HelloWorld />
+      <MiniCalendar />
     </div>
-  )
+  );
 }
