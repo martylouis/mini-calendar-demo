@@ -101,8 +101,7 @@
     outline: none;
     cursor: pointer;
 
-    &:focus,
-    &:focus-within {
+    &:focus {
       &:after {
         content: '';
         position: absolute;
