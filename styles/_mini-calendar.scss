@@ -176,6 +176,12 @@
   }
 
   &__event_item {
+    svg {
+      margin-right: 4px;
+      width: 12px;
+      height: 12px;
+    }
+
     &.block {
       position: relative;
       display: flex;
@@ -195,10 +201,6 @@
         width: 3px;
         background-color: transparent;
         display: block;
-      }
-
-      svg {
-        margin-right: 4px;
       }
 
       & + & {
@@ -263,10 +265,6 @@
     margin-top: 0.25rem;
     font-size: 0.85rem;
     color: var(--pattern-green-900);
-
-    svg {
-      margin-right: 4px;
-    }
   }
 
   &__footer {
