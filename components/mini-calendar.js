@@ -61,9 +61,9 @@ const MiniCalendar = () => {
         <div className="ba-mini-calendar__event_item dot dot_event"></div>
       </div>
       <footer className="ba-mini-calendar__footer">
-        <p className="ba-mini-calendar__view_more">
-          <a href="#">View All</a>
-        </p>
+        <div className="ba-mini-calendar__schedule_link">
+          <a href="#">View Schedule</a>
+        </div>
       </footer>
     </div>
   );

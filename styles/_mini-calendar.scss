@@ -269,9 +269,12 @@
     }
   }
 
-  &__view_more {
-    margin: 1rem 0 0;
+  &__footer {
+    margin-top: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
 
+  &__schedule_link {
     font-size: 0.85rem;
   }
 }
