@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Nav = ({ navItems }) => {
   return (
-    <nav class="nav">
+    <nav className="nav">
       {navItems.map(({ title, url }) => (
         <Link key={title} href={url}>
           <a className="nav__item">{title}</a>
