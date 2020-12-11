@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-@import 'mini-calendar';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
   --pattern-gray-50: #f8f8f7;
@@ -16,14 +15,12 @@
   --pattern-gray-1000: #222020;
 
   --pattern-blue-100: #e7edf6;
-  --pattern-blue-600: #386195;
+  --pattern-blue-600: #4171ae;
   --pattern-blue-800: #2a4970;
 
   --pattern-green-600: #25a244;
   --pattern-green-600-muted: #eef8f0;
   --pattern-green-900: #155d27;
-
-  --ba-mini-calendar-bg: #ddd;
 }
 
 *,
@@ -39,20 +36,36 @@ html {
 body {
   font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
-  color: var(--pattern-gray-800);
-  background-color: var(--pattern-gray-100);
+  color: var(--pattern-gray-900);
+  background-color: var(--pattern-gray-50);
   padding: 1rem;
 }
 
 a {
   color: var(--pattern-blue-600);
   text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: var(--pattern-blue-800);
+    text-decoration: underline;
+  }
 }
 
 .app {
   margin: 1rem auto 0;
-  max-width: 22rem;
-  background: white;
-  border: 1px solid var(--pattern-gray-150);
-  border-radius: 3px;
+  max-width: 24rem;
 }
+
+.nav {
+  margin-bottom: 2rem;
+  font-size: 0.85rem;
+}
+
+.nav__item {
+  & + & {
+    margin-left: 1rem;
+  }
+}
+
+@import 'mini-calendar';
