@@ -171,26 +171,26 @@
     }
   }
 
-  &__date_schedule {
+  &__schedule {
     margin-top: 0.75rem;
   }
 
-  &__date_selected {
+  &__schedule__date {
     font-size: 0.85rem;
     text-transform: uppercase;
   }
 
-  &__date_events {
+  &__schedule__events {
     margin-top: 0.75rem;
 
-    &__empty {
+    &--hasNoEvents {
       color: var(--pattern-gray-600);
       font-size: 0.85rem;
       font-style: italic;
     }
   }
 
-  &__event_item {
+  &__schedule__event {
     & + & {
       margin-top: 0.25rem;
     }

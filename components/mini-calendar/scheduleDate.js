@@ -1,9 +1,9 @@
 import dayjs from 'dayjs';
 
-const DateSelected = ({ date }) => (
-  <div className="ba-mc__date_selected">
+const ScheduleDate = ({ date }) => (
+  <div className="ba-mc__schedule__date">
     <strong>{dayjs(date).format('dddd')}</strong> {dayjs(date).format('M/D/YYYY')}
   </div>
 );
 
-export default DateSelected;
+export default ScheduleDate;

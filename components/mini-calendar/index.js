@@ -2,9 +2,7 @@ import Header from './header';
 import Footer from './footer';
 import DayNames from './dayNames';
 import Days from './days';
-import DateSelected from './dateSelected';
-import BlockEvent from './blockEvent';
-import DotEvent from './dotEvent';
+import ScheduleDate from './scheduleDate';
 
 const MiniCalendar = ({ today, datesWithEvents, datesNotAvailable, children }) => {
   return (
@@ -14,9 +12,9 @@ const MiniCalendar = ({ today, datesWithEvents, datesNotAvailable, children }) =
         <DayNames />
         <Days today={today} datesNotAvailable={datesNotAvailable} datesWithEvents={datesWithEvents} />
       </div>
-      <div className="ba-mc__date_schedule">
-        <DateSelected date={today} />
-        <div className="ba-mc__date_events">{children}</div>
+      <div className="ba-mc__schedule">
+        <ScheduleDate date={today} />
+        <div className="ba-mc__schedule__events">{children}</div>
       </div>
       <Footer />
     </div>

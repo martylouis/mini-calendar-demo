@@ -13,7 +13,7 @@ const BlockEvent = ({ type = 'event', responseNeeded = false, children, ...rest 
 
   return (
     <>
-      <div className="ba-mc__event_item">
+      <div className="ba-mc__schedule__event">
         <div className={blockEventClassNames(type)}>
           <div className="ba-mc__block_event__title">
             {type == 'task' && <IconTask />}

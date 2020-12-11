@@ -1,67 +1,67 @@
-# Example app with next-sass
+# BA Mini Calendar
 
-This example demonstrates how to use Next.js' built-in Global Sass/Scss imports and Component-Level Sass/Scss modules support.
+## How to Use
 
-## Deploy your own
+Clone locally and install packages with  [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/)
 
-Deploy the example using [Vercel](https://vercel.com):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-next-sass)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-next-sass with-next-sass-app
+```sh
+npm install
 # or
-yarn create next-app --example with-next-sass with-next-sass-app
+yarn
 ```
 
-Run production build with:
+Run production build
 
 ```bash
 npm run build
 npm run start
-# or
+#or
 yarn build
 yarn start
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Run dev build
+
+```bash
+npm run dev
+# or
+yarn dev
+```
 
 
-## Class Names!
+## List of class names
 
-.ba-mc
-  - .ba-mc__header
-    - .ba-mc__nav
-      - .ba-mc__nav_month
-      - .ba-mc__nav_buttons
-        - .ba-mc__nav_button
-        - .ba-mc__nav_button--prev
-        - .ba-mc__nav_button--next
-  - .ba-mc__calendar
-    - .ba-mc__day_names
-      - .ba-mc__day_name
-    - .ba-mc__days
-      - .ba-mc__day
-      - .ba-mc__day--selected
-        - .ba-mc__date
-        - .ba-mc__date_today
-        - .ba-mc__date_notAvailable
-        - .ba-mc__date_notAvailable--start
-        - .ba-mc__date_notAvailable--end
-          - .ba-mc__date_dot
-          - .ba-mc__date_dot--hasEvent
-  - .ba-mc__selected_day
-    - .ba-mc__selected_date
-    - .ba-mc__selected_events
-      - .ba-mc__block_event
-      - .ba-mc__block_event--task
-      - .ba-mc__block_event--notAvailable
-      - .ba-mc__dot_event
-        - .ba-mc__dot_event__time
-        - .ba-mc__dot_event__title
+|Section|Description|
+|---|---|
+|`.ba-mc` | Component wrapper |
+|`.ba-mc__header`| Header section |
+|`.ba-mc__calendar`| Calendar section |
+|`.ba-mc__schedule`| Schedule section |
+|`.ba-mc__footer`| Footer section |
 
-  - .ba-mc__footer
+|Header Section|Description|
+|---|---|
+|`.ba-mc__header`| Header section |
+|`.ba-mc__nav`| Navigation controls |
+|`.ba-mc__nav_month`| Month and Year |
+|`.ba-mc__nav_buttons`| Wraps navigation control buttons |
+|`.ba-mc__nav_button`| Buttons with SVGs |
+|`.ba-mc__nav_button--prev`| Navigation control button to go to previous month |
+|`.ba-mc__nav_button--next`| Nav control button to go to next month |
+
+|Calendar Section|Description|
+|---|---|
+|`.ba-mc__calendar`| Calendar section |
+
+|Schedule Section|Description|
+|---|---|
+|`.ba-mc__schedule`| Schedule section |
+|`.ba-mc__schedule__date`| Schedule day name and date (ex: 12/12/2020) |
+|`.ba-mc__schedule__events`| List of schedule events |
+|`.ba-mc__schedule__events--empty`| If nothing is scheduled |
+|`.ba-mc__schedule__event`| Schedule event item |
+
+|Footer Section|Description|
+|---|---|
+|`.ba-mc__footer`| Footer section |
+
