@@ -56,10 +56,6 @@ yarn dev
 |Schedule Section|Description|
 |---|---|
 |`.ba-mc__schedule`| Schedule section |
-|`.ba-mc__schedule__date`| Schedule day name and date (ex: 12/12/2020) |
-|`.ba-mc__schedule__events`| List of schedule events |
-|`.ba-mc__schedule__events--empty`| If nothing is scheduled |
-|`.ba-mc__schedule__event`| Schedule event item |
 
 |Footer Section|Description|
 |---|---|
