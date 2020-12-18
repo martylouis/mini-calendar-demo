@@ -43,11 +43,11 @@ yarn dev
 |---|---|
 |`.ba-mc__header`| Header section |
 |`.ba-mc__nav`| Navigation controls |
-|`.ba-mc__nav_month`| Month and Year |
-|`.ba-mc__nav_buttons`| Wraps navigation control buttons |
-|`.ba-mc__nav_button`| Buttons with SVGs |
-|`.ba-mc__nav_button--prev`| Navigation control button to go to previous month |
-|`.ba-mc__nav_button--next`| Nav control button to go to next month |
+|`.ba-mc__nav-month`| Month and Year |
+|`.ba-mc__nav-buttons`| Wraps navigation control buttons |
+|`.ba-mc__nav-button`| Buttons with SVGs |
+|`.ba-mc__nav-button--prev`| Navigation control button to go to previous month |
+|`.ba-mc__nav-button--next`| Nav control button to go to next month |
 
 |Calendar Section|Description|
 |---|---|
