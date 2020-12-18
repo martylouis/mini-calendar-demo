@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Layout>
       <MiniCalendar today={today} datesNotAvailable={datesNotAvailable} datesWithEvents={datesWithEvents}>
-        <div className="ba-mc__date_events__empty">Nothing Scheduled</div>
+        <div className="ba-mc__schedule__events--hasNoEvents">Nothing Scheduled</div>
       </MiniCalendar>
     </Layout>
   );

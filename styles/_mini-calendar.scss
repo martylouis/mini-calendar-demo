@@ -1,4 +1,5 @@
 .ba-mc {
+  // convert px to rems
   --ba-mc-icon-size: 14px;
   --ba-mc-dot-size: 6px;
 
@@ -23,6 +24,7 @@
       flex-shrink: 0;
     }
 
+    // Hyphenate
     &_buttons {
       margin-left: auto;
       display: flex;
@@ -35,7 +37,9 @@
       }
     }
 
+    // Hyphenate
     &_button {
+      // remove px
       width: 32px;
       height: 32px;
       background-color: transparent;
@@ -70,7 +74,7 @@
     font-size: 0.75rem;
   }
 
-  &__day_name,
+  &__day_name, // hyphenate
   &__day {
     display: flex;
     justify-content: center;
@@ -78,7 +82,7 @@
 
   &__day_name {
     color: var(--pattern-gray-600);
-    padding: 8px 4px;
+    padding: 0.5rem 0.25rem;
   }
 
   &__day_dot {
@@ -175,11 +179,13 @@
     margin-top: 0.75rem;
   }
 
+  // Hyphenate
   &__schedule__date {
     font-size: 0.85rem;
     text-transform: uppercase;
   }
 
+  // hyphenate
   &__schedule__events {
     margin-top: 0.75rem;
 
@@ -189,7 +195,7 @@
       font-style: italic;
     }
   }
-
+  // Hyphenate
   &__schedule__event {
     & + & {
       margin-top: 0.25rem;
@@ -203,6 +209,7 @@
     }
   }
 
+  // Hyphenate
   &__block_event {
     position: relative;
     display: flex;
@@ -219,7 +226,7 @@
       left: 0;
       top: 0;
       bottom: 0;
-      width: 3px;
+      width: 0.2rem;
       background-color: transparent;
       display: block;
     }
@@ -260,6 +267,7 @@
     }
   }
 
+  // Hyphenate
   &__dot_event {
     display: grid;
     grid-template-columns: auto 1fr;

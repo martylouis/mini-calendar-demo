@@ -1,7 +1,8 @@
 import Nav from './nav';
 
 const navItems = [
-  { title: 'Kitchen Sink', url: '/' },
+  { title: 'Basic', url: '/' },
+  { title: 'Kitchen Sink', url: '/kitchen-sink' },
   { title: 'Nothing Scheduled', url: '/blank' },
 ];
 
